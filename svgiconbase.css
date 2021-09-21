@@ -1,0 +1,18 @@
+/* CSS Document */
+
+.svg-icon {
+  width: 2em;
+  height: 2em;
+  margin: 0px 1em 0px 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #ffffff;
+}
+
+.svg-icon circle {
+  stroke: #ffffff;
+  stroke-width: 1;
+}
