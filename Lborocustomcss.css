@@ -1,0 +1,19 @@
+
+#lbpagetitle2 {
+        color:#fff;
+        background-color: #330066;
+        background-image: unset !important;
+        background-image: unset !important;
+        background-image: unset !important;
+
+	/*
+	xbackground-image: url(/extra/images/Learn.png);
+        xbackground-repeat: no-repeat;
+        xbackground-position: center bottom;
+        xwhite-space: nowrap;
+	*/
+	flex: 1 0 auto;
+	
+	border-bottom: 2px solid #dddddd;
+	border-top: 2px solid #dddddd;
+}
