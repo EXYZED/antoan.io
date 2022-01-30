@@ -11,22 +11,27 @@ body {
 	right:0px;
 	bottom:0px;
 	left:0px;
+	
 	  /*Fallback if gradeints don't work */
 	  background: #202020;
+ 
 	  /*Linear gradient... */
-	  background: 
+	  background: repeating-linear-gradient(transparent, transparent 2px, #202020 3px, #202020 3px),
 		radial-gradient(
-		 at center, #252525, #202020
+		 at center, #00000055, #000000ee
 		);
 	
+	mix-blend-mode: exclusion;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height:100vh;
+	z-index: 3
 }
 .CentreObject{
 	order:1;
+	z-index: 4;
 }
 .navBar{
 	margin: 10vh 0 0 0;
@@ -43,4 +48,15 @@ body {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+	z-index: 4;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1;
+  
 }
