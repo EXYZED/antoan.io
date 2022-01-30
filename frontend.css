@@ -21,7 +21,7 @@ body {
 		 at center, #00000055, #000000ee
 		);
 	
-	mix-blend-mode: exclusion;
+	mix-blend-mode: normal;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
